@@ -1,0 +1,65 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Javascript Tutorial</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+        <link rel="stylesheet" href="javascript.css">
+    </head>
+    <body>
+
+      <h1 id="header">JAVASCRIPT</h1>
+      <a id="link" href="https://www.mikedane.com/" target = "_blank">Giraffe Academy</a>
+      <br>
+      <img id="image" onclick="handleClick()" src="cat.jpg" width = 200px;>
+      <br>
+      <!-- <button id="button" onclick="handleClick(this)">Click Me</button> -->
+
+      <!-- infinite setInterval
+      setInterval, setTimeout -->
+
+      <button onClick="setTimeout(sayHi, 3000)">Click Me</button>
+
+      <label class="messageapp">JS message app</label>
+        <div>
+          <ul id="messages"></ul>
+          <input id="textbox" type="text">
+          <button id="button">Send</button>
+        </div>
+
+<br>
+        <div class="box-animation">
+        </div>
+<br>
+
+
+      <!--
+      "onclick" = javascript event event listener; javascript code will get executed (in the ())
+      used on any html element
+      can also execute javascript function via external file
+      script tags below elements you want to access; position matters! -->
+
+      <p>javascript is fun</p>
+      <p>you can write HTML using javascript</p>
+      <p>this is a javascript tutorial</p>
+      <p>learning is fun</p>
+
+      <script src="quiz.js"></script>
+
+
+
+
+
+    </body>
+    </html>
+
+
+      <!-- script type="text/javascript">
+        document.write("Hello my name is Kelani")
+        //comment
+        /* comment multiple lines
+        /*hello
+        how are you*/
+      </script>
+
+
+//script tag where javascript is inserted in the page
